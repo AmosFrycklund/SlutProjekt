@@ -9,9 +9,32 @@
 </head>
 <body>
     <div class="container">
+        <!--Topbaren och det som är i den-->
         <div class="TopBar">
-
+            <div class="Info">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Primary</a>
+                <a href="müsli.html">Military</a>
+                <a href="omoss.html">Magic</a>
+                <a href="index.html">Suport</a>
+              </div>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Monkeys</span>
+              
+              <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+              }
+              </script>
+            <a class="NoMonkey" href="index.html">Hero</a>
+            <a class="NoMonkey" href="index.html">Bloons</a>
+            </div>
         </div>
+        <!--Slut på topbaren-->
     </div>
 </body>
 </html>
