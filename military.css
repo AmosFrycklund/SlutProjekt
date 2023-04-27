@@ -5,6 +5,13 @@
     justify-content: space-evenly;
     flex-direction: column;
 }
+.ForMonkCont{
+    display: flex;
+    width: 100%;
+    height: 47.5%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .TreeMonkCont{
     display: flex;
     width: 100%;
@@ -12,19 +19,19 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
-.bildDM{
+.bildSM{
   width: auto;
   height: 85%;
 }
-.bildBM{
+.bildMS{
   width: auto;
   height: 80%;
 }
-.bildBS{
+.bildMB{
   width: auto;
   height: 80%;
 }
-.bildTS{
+.bildMA{
   width: auto;
   height: 85%;
 }
