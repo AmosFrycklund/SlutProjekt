@@ -1,23 +1,28 @@
-.primaryCont{
-    display: flex;
-    width: 90%;
-    height: 90%;
-    justify-content: space-evenly;
-    flex-direction: column;
+.militaryCont{
+  display: flex;
+  width: 90%;
+  height: 90%;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
 }
 .ForMonkCont{
-    display: flex;
-    width: 100%;
-    height: 47.5%;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  background-color: purple;
+  width: 100%;
+  height: 47.5%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .TreeMonkCont{
-    display: flex;
-    width: 100%;
-    height: 47.5%;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  background-color: brown;
+  width: 75%;
+  height: 47.5%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .bildSM{
   width: auto;
@@ -25,47 +30,56 @@
 }
 .bildMS{
   width: auto;
-  height: 80%;
+  height: 85%;
 }
 .bildMB{
   width: auto;
-  height: 80%;
+  height: 85%;
 }
 .bildMA{
   width: auto;
-  height: 85%;
-}
-.bildIM{
-  width: auto;
-  height: 85%;
-}
-.bildGG{
-  width: auto;
   height: 80%;
 }
-.primaryMonkeyContainer{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: #6EBFE8;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 3vh;
+.bildHP{
+  width: auto;
+  height: 85%;
+}
+.bildMM{
+  width: auto;
+  height: 85%;
+}
+.bildDG{
+  width: auto;
+  height: 85%;
+}
+.militaryMonkeyContainer{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #8DEB79;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3vh;
 }
 .länk{
+  height: 100%;
+  width: 22.5%;
+  text-decoration: none;
+}
+.länkTree{
   height: 100%;
   width: 30%;
   text-decoration: none;
 }
 .namnMonkey{
-    display: flex;
-    width: 100%;
-    height: 5vh;
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 0 3vh 3vh;
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 3vh 3vh;
 }
 .text{
     color: white;
