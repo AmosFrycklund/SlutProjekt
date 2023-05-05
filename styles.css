@@ -72,15 +72,3 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-  @media screen and (max-width: 530px){
-    .Müsli-big{
-      background-size: 200% 130%;
-      background-position: center;
-    }
-  }
-  @media screen and (max-width: 340px){
-    .Müsli-big{
-      background-size: 300% 130%;
-      background-position: center;
-    }
-  }

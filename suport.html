@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="suport.css">
+</head>
+<body>
+    <div class="container">
+        <!--Topbaren och det som är i den-->
+        <div class="TopBar">
+            <div class="Info">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="primary.html">Primary</a>
+                <a href="military.html">Military</a>
+                <a href="magic.html">Magic</a>
+                <a href="suport.html">Suport</a>
+              </div>
+              <span style="font-size:200%;cursor:pointer" onclick="openNav()">&#9776; Monkeys</span>
+              
+              <script>
+              function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+              }
+              </script>
+            <a class="NoMonkey" href="index.html">Hero</a>
+            <a class="NoMonkey" href="index.html">Bloons</a>
+            </div>
+        </div>
+        <!--Slut på topbaren-->
+        <div class="suportCont">
+            <div class="TreeMonkCont">
+                <a href="Monkey.html" class="länk"><div class="suportMonkeyContainer"><img src="BF.png" alt="Banana Farm" class="bildBF"><div class="namnMonkey"><p class="text">Banana Farm</p></div></div></a>
+                <a href="Monkey.html" class="länk"><div class="suportMonkeyContainer"><img src="SF.png" alt="Spike Factory" class="bildSF"><div class="namnMonkey"><p class="text">Spike Factory</p></div></div></a>
+                <a href="Monkey.html" class="länk"><div class="suportMonkeyContainer"><img src="MV.png" alt="Monkey Village" class="bildMV"><div class="namnMonkey"><p class="text">Monkey Village</p></div></div></a>
+            </div>
+            <div class="TooMonkCont">
+                <a href="Monkey.html" class="länkToo"><div class="suportMonkeyContainer"><img src="EM.png" alt="Engineer Monkey" class="bildEM"><div class="namnMonkey"><p class="text">Engineer Monkey</p></div></div></a>
+                <a href="Monkey.html" class="länkToo"><div class="suportMonkeyContainer"><img src="BH.png" alt="Beast Handler" class="bildBH"><div class="namnMonkey"><p class="text">Beast Handler</p></div></div></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
