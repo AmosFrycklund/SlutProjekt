@@ -24,6 +24,12 @@
     background-color: #6EBFE8;
     border-radius: 3vh 0 0 3vh;
 }
+.title{
+    display: flex;
+    width: 80%;
+    font-size: 4vh; 
+    justify-content: center; 
+}
 .inGameDes{
     display: flex;
     width: 80%;
@@ -46,7 +52,7 @@
 }
 .crosspath{
     display: flex;
-    width: 60%;
+    width: 80%;
     height: 25%;
     flex-direction: row;
 }
