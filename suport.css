@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 .suportCont{
     display: flex;
     width: 90%;
@@ -38,7 +41,7 @@
 }
 .bildBH{
   width: auto;
-  height: 85%;
+  height: 80%;
 }
 .suportMonkeyContainer{
     display: flex;
@@ -141,25 +144,50 @@
     color: #f1f1f1;
   }
   
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+  @media screen and (max-width: 1024px){
+    .Info{
+        width: 40%;
+    }
+}
+  @media screen and (max-width: 995px){
+        .Info{
+            width: 40%;
+        }
+        .bildSF{
+            width: 95%;
+            height: auto;
+        }
+  }
+@media screen and (max-width: 810px){
+    .Info{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 765px){
+    .bildEM{
+        width: 99%;
+        height: auto;
+    }
+}
   @media screen and (max-width: 769px){
       .Info{
           width: 45%;
           flex-direction: row;
       }
+      .bildSF{
+          width: 100%;
+          height: auto;
+      }
+      .bildBH{
+          width: 100%;
+          height: auto;
+      }
   }
-  @media screen and (max-width: 426px){
+  @media screen and (max-width: 730px){
     .TreeMonkCont{
         flex-direction: column;
     }
@@ -186,64 +214,47 @@
     }
     .suportCont{
         height: 300vh;
+   
         justify-content: space-evenly;
     }
     .container{
         height: 320vh;
         justify-content: space-between;
     }
-    /*Top baren large phone*/
+    .bildSF{
+        width: auto;
+        height: 80%;
+    }
+    .bildBH{
+        width: auto;
+        height: 80%;
+    }
+    .bildEM{
+        width: auto;
+        height: 80%;
+    }
     .Info{
         flex-direction: column;
-        width: 40%;
+        width: 100%;
     }
     .TopBar{
-        height: 7%;
+        height: 8%;
+    }
+  }
+  @media screen and (max-width: 426px){
+    .TopBar{
+        height: 9%;
     }
     }
     /*Top baren large phone slut*/
     @media screen and (max-width: 376px){
-        .TreeMonkCont{
-            flex-direction: column;
-        }
-        .TooMonkCont{
-            flex-direction: column;
-        }
-        .länk{
-            width: 100%;
-            height: 30%;
-        }
-        .länkToo{
-            width: 100%;
-            height: 45%;
-        }
-        .TreeMonkCont{
-            width: 100%;
-            height: 60%;
-            justify-content: space-around;
-        }
-        .TooMonkCont{
-            width: 100%;
-            height: 40%;
-            justify-content: space-around;
-        }
-        .suportCont{
-            height: 300vh;
-            justify-content: space-evenly;
-        }
-        .container{
-            height: 310vh;
-            justify-content: space-between;
-        }
-        .bildSF{
-            height: 69%;
-        }
-        /*Top baren medium phone*/
-        .Info{
-            flex-direction: column;
-            width: 60%;
-        }
         .TopBar{
-            height: 6%;
+            height: 9%;
         }
         }
+    @media screen and (max-width: 320px){
+        .bildSF{
+            width: 99%;
+            height: auto;
+        }
+    }

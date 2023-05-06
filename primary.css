@@ -1,3 +1,6 @@
+*{
+  margin: 0px;
+}
 .primaryCont{
     display: flex;
     width: 90%;
@@ -133,15 +136,148 @@
     color: #f1f1f1;
   }
   
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+  @media screen and (max-width: 1024px){
+    .Info{
+        width: 40%;
+    }
+    .bildBM{
+      width: 95%;
+      height: auto;
+    }
+    .bildBS{
+      width: 95%;
+      height: auto;
+    }
+}
+  @media screen and (max-width: 995px){
+        .Info{
+            width: 40%;
+        }
+        .bildSF{
+            width: 95%;
+            height: auto;
+        }
+  }
+@media screen and (max-width: 810px){
+    .Info{
+        width: 45%;
+    }
+    .bildTS{
+      width: 95%;
+      height: auto;
+    }
+    .bildGG{
+      width: 95%;
+      height: auto;
+    }
+}
+@media screen and (max-width: 765px){
+    .bildEM{
+        width: 99%;
+        height: auto;
+    }
+}
+  @media screen and (max-width: 769px){
+      .Info{
+          width: 45%;
+          flex-direction: row;
+      }
+      .bildSF{
+          width: 100%;
+          height: auto;
+      }
+      .bildBH{
+          width: 100%;
+          height: auto;
+      }
+  }
+  @media screen and (max-width: 730px){
+    .TreeMonkCont{
+        flex-direction: column;
+    }
+    .TooMonkCont{
+        flex-direction: column;
+    }
+    .länk{
+        width: 100%;
+        height: 30%;
+    }
+    .TreeMonkCont{
+        width: 100%;
+        height: 50%;
+        justify-content: space-around;
+    }
+    .magicCont{
+        height: 300vh;
+   
+        justify-content: space-evenly;
+    }
+    .container{
+        height: 320vh;
+        justify-content: space-between;
+    }
+    .bildSF{
+        width: auto;
+        height: 80%;
+    }
+    .bildBH{
+        width: auto;
+        height: 80%;
+    }
+    .bildEM{
+        width: auto;
+        height: 80%;
+    }
+    .Info{
+        flex-direction: column;
+        width: 100%;
+    }
+    .TopBar{
+        height: 8%;
+    }
+    .bildDM{
+      width: auto;
+      height: 85%;
+    }
+    .bildBM{
+      width: auto;
+      height: 80%;
+    }
+    .bildBS{
+      width: auto;
+      height: 80%;
+    }
+    .bildTS{
+      width: auto;
+      height: 85%;
+    }
+    .bildIM{
+      width: auto;
+      height: 85%;
+    }
+    .bildGG{
+      width: auto;
+      height: 80%;
+    }
+  }
+  @media screen and (max-width: 426px){
+    .TopBar{
+        height: 9%;
+    }
+    }
+    /*Top baren large phone slut*/
+    @media screen and (max-width: 376px){
+        .TopBar{
+            height: 9%;
+        }
+        }
+    @media screen and (max-width: 320px){
+        .bildSF{
+            width: 99%;
+            height: auto;
+        }
+    }
