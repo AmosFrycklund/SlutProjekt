@@ -104,7 +104,15 @@
     text-decoration: none;
     margin-top: 1.5%;
 }
-
+#first{
+    cursor: pointer;
+}
+#sechound{
+    cursor: pointer;
+}
+#third{
+    cursor: pointer;
+}
 /*Slut på topbaren*/
 
 
