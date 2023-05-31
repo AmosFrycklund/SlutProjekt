@@ -175,6 +175,10 @@
       .knapp{
           width: 60%;
       }
+      .pic{
+          width: 90%;
+          height: auto;
+      }
   }
   @media  screen and (max-width: 660px) {
       .pic{
@@ -188,6 +192,14 @@
         width: 90%;
     }
   }
+  @media  screen and (max-width: 414px) {
+    .bild{
+        height: 35%;
+    }
+    .text{
+        height: 65%;
+    }
+}
   @media  screen and (max-width: 365px) {
       .containerInfo{
           height: 275vh;

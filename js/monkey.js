@@ -128,11 +128,11 @@ if(selected == "sub"){
         $('#third').css({'background-color':"#ffffff"});
 }
 if(selected == "buccaner"){
-    $(".title").html("Hangarfartygsflaggskepp");
+    $(".title").html("Hangarfartygs flaggskepp");
         $(".pic").attr("src", "bild/CF.png");
         $(".inGameDes").html('<p class="infoText">"Ger extra skada. Kan placera andra apor på fartygets övre däck och öka attackhastigheten för alla vattenbaserade apor och apess."</p>');
         $(".des").html('<p class="infoText">Hangarfartygsflaggskeppet kan inte förstöra blybloons eller kamobloons. Men har små flyggplan som flyger runt på kartan och skjuter pilar på bloons och missiler på MOAB-klass-Bloons.</p></div>');
-        $(".över").html('<p class="infoText">5-2-0 Gör så att hangarfartygsflaggskeppet kan förstöra ledbloons och skjuter ut brinnande vindruvor från skeppets ka#ffffffr.</p>');
+        $(".över").html('<p class="infoText">5-2-0 Gör så att hangarfartygsflaggskeppet kan förstöra ledbloons och skjuter ut brinnande vindruvor från skeppet.</p>');
         $(".under").html('<p class="infoText">5-0-2 Gör så att den kan förstöra kamobloons och ökar båtens räckvidd.</p>');
         $('.bild').css({'background-color':color});
         $('.text').css({'background-color':color});
@@ -631,11 +631,11 @@ if(selected == "sub"){
 }
 if(selected == "buccaner"){
     $( "#first" ).on( "click", function() {
-        $(".title").html("Hangarfartygsflaggskepp");
+        $(".title").html("Hangarfartygs flaggskepp");
         $(".pic").attr("src", "bild/CF.png");
         $(".inGameDes").html('<p class="infoText">"Ger extra skada. Kan placera andra apor på fartygets övre däck och öka attackhastigheten för alla vattenbaserade apor och apess."</p>');
         $(".des").html('<p class="infoText">Hangarfartygsflaggskeppet kan inte förstöra blybloons eller kamobloons. Men har små flyggplan som flyger runt på kartan och skjuter pilar på bloons och missiler på MOAB-klass-Bloons.</p></div>');
-        $(".över").html('<p class="infoText">5-2-0 Gör så att hangarfartygsflaggskeppet kan förstöra ledbloons och skjuter ut brinnande vindruvor från skeppets ka#ffffffr.</p>');
+        $(".över").html('<p class="infoText">5-2-0 Gör så att hangarfartygsflaggskeppet kan förstöra ledbloons och skjuter ut brinnande vindruvor från skeppet.</p>');
         $(".under").html('<p class="infoText">5-0-2 Gör så att den kan förstöra kamobloons och ökar båtens räckvidd.</p>');
         $('#first').css({'background-color':"#D3D3D3"});
         $('#sechound').css({'background-color':"#ffffff"});
@@ -696,7 +696,7 @@ if(selected == "ace"){
         $(".pic").attr("src", "bild/FF.png");
         $(".inGameDes").html('<p class="infoText">"Det är ett STORT plan."</p>');
         $(".des").html('<p class="infoText">Flygande fästnign kan förstara ledbloons och kan inte förstöra kamobloons. Skjuter missiler som söker sig till bloons och förstör dom.</p>');
-        $(".över").html('<p class="infoText">2-0-5 Skjuter snabbare och flera pilar och bomberkui.</p>');
+        $(".över").html('<p class="infoText">2-0-5 Skjuter snabbare och flera pilar och bomber.</p>');
         $(".under").html('<p class="infoText">0-2-5 Kan förstöra kamobloons och släpper exploderande ananaser.</p>');
         $('#first').css({'background-color':"#ffffff"});
         $('#sechound').css({'background-color':"#ffffff"});
@@ -1006,7 +1006,7 @@ if(selected == "banana"){
         $(".title").html("Banancentral");
         $(".pic").attr("src", "bild/BCEN.png");
         $(".inGameDes").html('<p class="infoText">"Vill du ha bananer? Vi har bananer."</p>');
-        $(".des").html('<p class="infoText">Banancentral kan inte förstöra några bloons. Skjuter ut 5 lådor värda 1200 pengar varje runda och gör bananforskningsanläggningar bättre.</p></div>');
+        $(".des").html('<p class="infoText">Banancentral kan inte förstöra några bloons. Skjuter ut 5 lådor värda 1200 pengar varje runda och gör bananforsknings anläggningar bättre.</p></div>');
         $(".över").html('<p class="infoText">5-2-0 Skapar mer 25% mer pengar per låda och får mer pengar än 5-0-2 och lådorna varar 15 sekunder längre.</p>');
         $(".under").html('<p class="infoText">5-0-2 Ökar försäljnings priset för farmen och gör det lättare att plocka upp lådor.</p>');
         $('#first').css({'background-color':"#D3D3D3"});

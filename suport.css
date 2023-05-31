@@ -162,32 +162,7 @@
             height: auto;
         }
   }
-@media screen and (max-width: 810px){
-    .Info{
-        width: 45%;
-    }
-}
-@media screen and (max-width: 765px){
-    .bildEM{
-        width: 99%;
-        height: auto;
-    }
-}
-  @media screen and (max-width: 769px){
-      .Info{
-          width: 45%;
-          flex-direction: row;
-      }
-      .bildSF{
-          width: 100%;
-          height: auto;
-      }
-      .bildBH{
-          width: 100%;
-          height: auto;
-      }
-  }
-  @media screen and (max-width: 730px){
+  @media screen and (max-width: 912px){
     .TreeMonkCont{
         flex-direction: column;
     }
@@ -241,9 +216,36 @@
         height: 8%;
     }
   }
+@media screen and (max-width: 810px){
+    .Info{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 765px){
+    .bildEM{
+        width: 60%;
+        height: auto;
+    }
+}
+  @media screen and (max-width: 769px){
+      .Info{
+          width: 45%;
+          flex-direction: row;
+      }
+  }
+  @media screen and (max-width: 730px){
+    .bildBH{
+        width: 70%;
+        height: auto;
+    }
+  }
   @media screen and (max-width: 426px){
     .TopBar{
         height: 9%;
+    }
+    .bildSF{
+        width: 95%;
+        height: auto;
     }
     }
     /*Top baren large phone slut*/
