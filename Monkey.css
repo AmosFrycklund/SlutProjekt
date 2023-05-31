@@ -29,6 +29,7 @@
     width: 80%;
     font-size: 4vh; 
     justify-content: center; 
+    font-weight: bold
 }
 .inGameDes{
     display: flex;
@@ -178,6 +179,19 @@
       .pic{
           width: 90%;
           height: auto;
+      }
+      .crosspath{
+          flex-direction: column;
+          width: 100%;
+          align-items: center;
+          justify-content: space-evenly;
+          height: 25%;
+      }
+      .över{
+          width: 80%;
+      }
+      .under{
+          width: 80%;
       }
   }
   @media  screen and (max-width: 660px) {
