@@ -696,7 +696,7 @@ if(selected == "ace"){
         $(".pic").attr("src", "bild/FF.png");
         $(".inGameDes").html('<p class="infoText">"Det är ett STORT plan."</p>');
         $(".des").html('<p class="infoText">Flygande fästnign kan förstara ledbloons och kan inte förstöra kamobloons. Skjuter missiler som söker sig till bloons och förstör dom.</p>');
-        $(".över").html('<p class="infoText">2-0-5 Skjuter snabbare och flera pilar och bomber.</p>');
+        $(".över").html('<p class="infoText">2-0-5 Skjuter snabbare och flera pilar och bomberkui.</p>');
         $(".under").html('<p class="infoText">0-2-5 Kan förstöra kamobloons och släpper exploderande ananaser.</p>');
         $('#first').css({'background-color':"#ffffff"});
         $('#sechound').css({'background-color':"#ffffff"});
