@@ -213,7 +213,7 @@
         width: 100%;
     }
     .TopBar{
-        height: 8%;
+        height: 3%;
     }
   }
 @media screen and (max-width: 810px){
@@ -240,20 +240,12 @@
     }
   }
   @media screen and (max-width: 426px){
-    .TopBar{
-        height: 9%;
-    }
     .bildSF{
         width: 95%;
         height: auto;
     }
     }
     /*Top baren large phone slut*/
-    @media screen and (max-width: 376px){
-        .TopBar{
-            height: 9%;
-        }
-        }
     @media screen and (max-width: 320px){
         .bildSF{
             width: 99%;

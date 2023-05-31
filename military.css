@@ -278,14 +278,9 @@
         width: 100%;
     }
     .TopBar{
-        height: 8%;
+        height: 3%;
     }
   }
-  @media screen and (max-width: 426px){
-    .TopBar{
-        height: 9%;
-    }
-    }
     @media screen and (max-width: 414px){
       .bildMA{
         width: 80%;
@@ -309,8 +304,3 @@
       }
       }
     /*Top baren large phone slut*/
-    @media screen and (max-width: 376px){
-        .TopBar{
-            height: 9%;
-        }
-        }

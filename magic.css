@@ -147,11 +147,6 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-  @media screen and (max-width: 1024px){
-    .Info{
-        width: 40%;
-    }
-}
   @media screen and (max-width: 995px){
         .Info{
             width: 40%;
@@ -214,6 +209,9 @@
     .TopBar{
         height: 8%;
     }
+    .TopBar{
+        height: 3%;
+    }
   }
 @media screen and (max-width: 810px){
     .Info{
@@ -227,10 +225,6 @@
     }
 }
   @media screen and (max-width: 769px){
-      .Info{
-          width: 45%;
-          flex-direction: row;
-      }
       .bildSF{
           width: 100%;
           height: auto;
@@ -240,23 +234,16 @@
           height: auto;
       }
   }
-  @media screen and (max-width: 426px){
-    .TopBar{
-        height: 9%;
-    }
-    }
     @media screen and (max-width: 414px){
         .bildNM{
             width: 90%;
             height: auto;
         }
+        .TopBar{
+            height: 3%;
+        }
         }
     /*Top baren large phone slut*/
-    @media screen and (max-width: 376px){
-        .TopBar{
-            height: 9%;
-        }
-        }
     @media screen and (max-width: 320px){
         .bildSF{
             width: 99%;
