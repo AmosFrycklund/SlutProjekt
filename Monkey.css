@@ -156,6 +156,12 @@
       .containerInfo{
           height: 200vh;
       }
+      .title{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          text-align: center;
+      }
       .bild{
           width: 100%;
           height: 60%;
